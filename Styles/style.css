@@ -99,6 +99,8 @@
     justify-content: end;
     text-align: center;
     border-top-left-radius: 50%;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
     border-top-right-radius: 50%;
 }
 .card img{
@@ -109,4 +111,22 @@
     font-size: 18px;
     font-family: Lato;
     color: rgb(39, 39, 39);
+}
+/* Section two */
+.section-two{
+    border-radius: 12px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.s2-container{
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+.service{
+    text-align: center;
 }
