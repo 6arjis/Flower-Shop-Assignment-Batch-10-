@@ -205,12 +205,12 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.card{
+.card-s5{
     width: 400px;
     height: 300px;
     margin: 20px;
 }
-.card img{
+.card-s5 img{
     height: 100%;
     width: 100%; 
     border-radius: 8px;  
@@ -253,4 +253,44 @@
 .s5-btn{
     height: 50px;
     margin-left: 10px;
+}
+/* Footer  Style*/
+.footer{
+    width: 1518px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+.footer-container{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container h1{
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    margin-bottom: 20px;
+}
+.footer-container h4{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-container p{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
 }
