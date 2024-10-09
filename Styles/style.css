@@ -130,3 +130,43 @@
 .service{
     text-align: center;
 }
+/* Section Three Style */
+.section-three{
+    width: 1519px;
+    height: 400px;
+    margin-top: 100px;
+}
+.s3-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.s3-left{
+    text-align: center;
+}
+.s3-left h3{
+    font-size: 35px;
+    font-family: lato;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.s3-left p{
+    font-size: 18px;
+    font-family: lato;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgba(39, 39, 39, 0.6);
+   
+}
+.s3-right{
+    height: 350px;
+    width: 320px;
+    margin: 20px 0 20px 0;
+}
+.s3-right img{
+    height: 100%;
+    width: 100%;
+}
